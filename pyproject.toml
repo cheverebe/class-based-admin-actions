@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "class-based-admin-actions"
+name = "django-class-based-admin-actions"
 version = "0.1.0"
 description = "Class-based Django admin actions: compose reusable actions from mixins, like class-based views."
 readme = "README.md"

@@ -1,4 +1,4 @@
-# class-based-admin-actions
+# django-class-based-admin-actions
 
 Django admin actions written as classes and composed from mixins, the way class-based views are.
 `AdminAction.as_action()` is to admin actions what `View.as_view()` is to views.
