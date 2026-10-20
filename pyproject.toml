@@ -8,8 +8,18 @@ version = "0.1.0"
 description = "Class-based Django admin actions: compose reusable actions from mixins, like class-based views."
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Alejandro Rebecchi" }]
+keywords = ["django", "admin", "actions", "class-based"]
 dependencies = ["django>=4.2"]
 classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Framework :: Django",
     "Framework :: Django :: 4.2",
     "Framework :: Django :: 5.0",
@@ -17,6 +27,10 @@ classifiers = [
     "Framework :: Django :: 5.2",
     "Framework :: Django :: 6.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/cheverebe/class-based-admin-actions"
+Issues = "https://github.com/cheverebe/class-based-admin-actions/issues"
 
 [dependency-groups]
 dev = ["pytest", "pytest-django"]
